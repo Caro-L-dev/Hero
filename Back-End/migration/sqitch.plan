@@ -1,0 +1,7 @@
+%syntax-version=1.0.0
+%project=heros
+%uri=git@github.com:O-clock-Jason/projet-hero.git
+
+init-table 2020-10-14T09:15:07Z Alex <trane-@hotmail.fr> # creation des tables
+histoire-1 2020-10-22T07:24:21Z Alex <trane-@hotmail.fr> # ajout de données pour l histoire 1
+histoire-2 2020-10-27T13:51:38Z Alex <trane-@hotmail.fr> # ajout de donneés pour l histoire 2

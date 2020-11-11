@@ -1,0 +1,138 @@
+{
+  "history": {
+    "history_id": 2,
+    "history_name": "L'arène",
+    "history_description": "Arriverez-vous a battre tous les ennemies ?",
+    "history_difficulty": "medium",
+    "playable_character_id": [
+      4,
+      5,
+      6
+    ],
+    "scene_list": [
+      {
+        "details_scene": {
+          "scene_id": 12,
+          "scene_name": "vestiaire de l'arene",
+          "scene_description": "scene de depart",
+          "scene_opponent_id": null,
+          "scene_type": "Début",
+          "scene_text": "Après avoir finalisé votre inscription au tournoi de l’arène, vous attendez impatiemment votre tour pour montrer votre talent au monde entier. Aucune inquiétude ! Votre combat est sur le point de commencer, serez-vous à la hauteur ?"
+        },
+        "previous_scene_id": null,
+        "next_scene_id": 13,
+        "next_scene_name": "Démarrer",
+        "img_scene": "https://i.ibb.co/25xVbhh/arenes.jpg"
+      },
+      {
+        "details_scene": {
+          "scene_id": 13,
+          "scene_name": "combat de l'arene 1",
+          "scene_description": "scene de combat",
+          "scene_opponent_id": 7,
+          "scene_type": "Combat",
+          "opponent_name": "Gargoyle",
+          "opponent_hp": 20,
+          "opponent_atk": 5,
+          "opponent_def": 4
+        },
+        "previous_scene_id": 12,
+        "next_scene": {
+          "next_scene_id": 14,
+          "next_scene_name": "Suite"
+        },
+        "next_scene2": {
+          "next_scene_id2": 16,
+          "next_scene_name2": "GameOver"
+        },
+        "img_scene": "https://i.ibb.co/25xVbhh/arenes.jpg"
+      },
+      {
+        "details_scene": {
+          "scene_id": 14,
+          "scene_name": "combat de l'arene 2",
+          "scene_description": "scene de combat 2",
+          "scene_opponent_id": 8,
+          "scene_type": "Combat",
+          "opponent_name": "Dragon King",
+          "opponent_hp": 30,
+          "opponent_atk": 8,
+          "opponent_def": 10
+        },
+        "previous_scene_id": 13,
+        "next_scene": {
+          "next_scene_id": 15,
+          "next_scene_name": "Suite"
+        },
+        "next_scene2": {
+          "next_scene_id2": 16,
+          "next_scene_name2": "GameOver"
+        },
+        "img_scene": "https://i.ibb.co/25xVbhh/arenes.jpg"
+      },
+      {
+        "details_scene": {
+          "scene_id": 15,
+          "scene_name": "combat de l'arene 3",
+          "scene_description": "scene de combat 3",
+          "scene_opponent_id": 9,
+          "scene_type": "Combat",
+          "opponent_name": "Death",
+          "opponent_hp": 40,
+          "opponent_atk": 12,
+          "opponent_def": 6
+        },
+        "previous_scene_id": 14,
+        "next_scene": {
+          "next_scene_id": 17,
+          "next_scene_name": "Suite"
+        },
+        "next_scene2": {
+          "next_scene_id2": 16,
+          "next_scene_name2": "GameOver"
+        },
+        "img_scene": "https://i.ibb.co/25xVbhh/arenes.jpg"
+      },
+      {
+        "details_scene": {
+          "scene_id": 16,
+          "scene_name": "game over",
+          "scene_description": "scene de fin: gameover",
+          "scene_opponent_id": null,
+          "scene_type": "Fin"
+        },
+        "previous_scene_id": [
+          15,
+          14,
+          13
+        ],
+        "finish_text": "Game Over, Vous etes mort !",
+        "img_scene": "https://i.ibb.co/25xVbhh/arenes.jpg"
+      },
+      {
+        "details_scene": {
+          "scene_id": 17,
+          "scene_name": "game win",
+          "scene_description": "scene de fin: sortir en ayant tuer tous les adversaires",
+          "scene_opponent_id": null,
+          "scene_type": "Fin"
+        },
+        "previous_scene_id": 15,
+        "finish_text": "Bravo, vous etes le grand maitre de l'arene !",
+        "img_scene": "https://i.ibb.co/25xVbhh/arenes.jpg"
+      }
+    ]
+  },
+  "session": {
+    "connected_user": true,
+    "id": 1,
+    "userName": "Alexis",
+    "email": "trane-@hotmail.fr",
+    "detail_id": 1,
+    "avatar": "Warrior",
+    "displayName": "Alexis",
+    "gameWin": 0,
+    "gameOver": 0,
+    "gamePlay": 0
+  }
+}

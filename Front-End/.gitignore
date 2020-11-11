@@ -1,0 +1,14 @@
+node_modules/
+dist/
+
+.DS_Store
+Thumbs.db
+
+yarn-error.log
+
+src/components/Navigation/Contact/apikeys.js
+<<<<<<< HEAD
+
+../Back-End
+=======
+>>>>>>> e5b7d2342b301a8cd49ef80949beb72715331753
